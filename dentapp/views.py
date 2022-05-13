@@ -7,6 +7,8 @@ def index(request):
     }
     return render(request, 'index.html', context)
 
+def appointment(request):
+    return render(request, 'appointment.html')
 
 def treatment(request):
     return render(request, 'treatment.html')
